@@ -1,0 +1,33 @@
+.client-card {
+  max-width: 350px;
+  margin: 40px;
+}
+
+.client-card > img {
+  width: 90px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.client-card > p {
+  font-family: var(--font-sans-serif);
+  font-weight: 600;
+  color: var(--Very-dark-grayish-blue);
+  margin: 50px 0;
+  line-height: 1.6;
+}
+
+.client-card > .client-sign > h3 {
+  font-family: var(--font-serif);
+  font-weight: 900;
+  color: var(--Very-dark-desaturated-blue);
+  margin: 15px;
+}
+.client-card > .client-sign > p {
+  font-family: var(--font-sans-serif);
+  font-weight: 600;
+  color: var(--Grayish-blue);
+  font-size: .8rem;
+}

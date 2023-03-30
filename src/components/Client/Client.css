@@ -1,0 +1,32 @@
+.client {
+  width: 100%;
+  padding: 70px;
+  text-align: center;
+}
+
+.client > h3 {
+  font-family: var(--font-serif);
+  color: var(--Grayish-blue);
+  font-weight: 900;
+  letter-spacing: 8px;
+  margin: 50px 0 ;
+}
+
+
+.client > .clients-cards {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+@media only screen and (max-width: 960px) {
+  .client {
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 525px) {
+
+}
