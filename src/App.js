@@ -7,6 +7,8 @@ import Content from './components/Content';
 import Article from './components/Article';
 import Card from './components/Card';
 import Client from './components/Client';
+import Gallery from './components/Gallery';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -63,8 +65,11 @@ function App() {
       paragraph=" Increase your credibility by getting the most stunning, high-quality photos that improve your business image."
     />
 
-  <Client/>
+      <Client/>
 
+      <Gallery/>
+
+      <Footer/>
     </>
   );
 }

@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@400;700;900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;600;800;900&family=Fraunces:wght@400;700;900&display=swap');
 
 :ROOT {
   /* Primary */
@@ -8,6 +7,7 @@
   --Dark-desaturated-cyan : hsl(167, 40%, 24%); /*(graphic design text)*/
   --Dark-blue : hsl(198, 62%, 26%); /*(photography text)*/
   --Dark-moderate-cyan : hsl(168, 34%, 41%); /*(footer)*/
+  --Moderate-cyan : hsl(167, 44%, 70%); /*(footer)*/
 
   /* Neutral */
   --Very-dark-desaturated-blue: hsl(212, 27%, 19%);
@@ -18,7 +18,7 @@
 
 
   /* fonts */
-  --font-sans-serif: 'Barlow', sans-serif; /*400 600*/
+  --font-sans-serif: 'Barlow', sans-serif; /*400 600 800 900*/
   --font-serif: 'Fraunces', serif; /*400 700 900*/
   --main-font-size: 18px;
   
